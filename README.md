@@ -1,10 +1,10 @@
 # TCPIP-AUTOSAR-stack-4.3.1
 
-//*****************************************************************************
+//**************************************** 
 //
 // ---------- Memory options ----------RAM
 //
-//*****************************************************************************
+
 #define MEM_SIZE                          (6* 1024) memory for application data and created headers
 #define MEMP_NUM_UDP_PCB                  4     // NO_OF TCB control block
 #define MEMP_NUM_TCP_PCB                  4     // NO_OF TCB control block
